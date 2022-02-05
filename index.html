@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo8.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1><i class="fa fa-book" aria-hidden="true"></i> My Library</h1>
+    <div id="newBtn-Container">
+        <button id="newBtn">Add New Book</button>
+    </div>
+    <div id="popUp">
+        <form id="form" action="app.js">
+            <span class="close">&times;</span>
+            <ledgned>New Book</ledgned>
+            <div id="textInput">
+                <p><input type="text" id="title" name="title" placeholder="Title" required></p>
+                <p><input type="text" id="author" name="author" placeholder="Author" required></p>
+                <p><input type="number" id="pages" name="pages" placeholder="Pages" required></p>
+            </div>
+            <div id="checkBox">
+                <p><label>Read: </label><input type="checkbox" id="read" name="read" value="yes"></p>
+            </div>
+            <button type="submit" form="form" id="addBtn">Add</button>
+        </form>
+    </div>
+    <div id="Library-container"></div>
+    <footer class="footer">
+        <p>
+            Copyright ©
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            Ayesha Khalil
+        </p>
+        <a href ="https://github.com/akhalil95" target="_blank">
+            <i class="fa fa-github" aria-hidden="true"></i>
+        </a>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
