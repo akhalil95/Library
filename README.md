@@ -1,13 +1,25 @@
-# Library
-📝 Description
-A virtual library program to store the books you've always been meaning to read. A project from the Odin Project Curriculum.
+# My Library
 
-💡 Features
-Every book is saved to localStorage
-You can delete any of your books
-Can update whether you've read any of the books in your library
+This website lets you store and keep track of your favourite books. The project idea is from The Odin Project.
 
-🛠️ Built with
-HTML
-CSS
-JavaScript
+
+## Features
+
+- Local Storage
+- Add / Delete
+- Modal
+- Forms
+
+
+
+## Demo
+
+Link: https://akhalil95.github.io/Library/
+![Feb-18-2022 02-01-17](https://user-images.githubusercontent.com/68371207/154652158-7bda64aa-338a-49af-a3ef-a1fc26b65130.gif)
+
+
+
+
+## Acknowledgements
+
+ - [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/library)
